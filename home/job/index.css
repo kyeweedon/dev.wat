@@ -1,0 +1,472 @@
+#modalBack {
+	position:fixed;
+	top:0;
+	display:none;
+	width:100%;
+	height:100%;
+}
+	#modal {
+		position:absolute;
+		margin:80px auto 0 auto;
+		left:0;
+		right:0;
+		width:400px;
+		height:250px;
+		padding:30px;
+		background-color:#FFF;
+		border:1px solid #999;
+		box-shadow:0 2px 5px #999;
+		border-radius:5px;
+		z-index:99;
+	}
+		#modalText1 {
+			height:20px;
+			font-size:16px;
+			font-weight:bold;
+		}
+		#modalText2 {
+			height:15px;
+			font-size:10px;
+			line-height:15px;
+			color:#333;
+		}
+		#modalBox {
+			width:100%;
+			height:100px;
+			padding-top:10px;
+		}
+			h3 {
+				margin:10px 0 10px 30px;
+				font-weight:9;
+				font-size:15px;
+			}
+			#resubNote {
+				width:100%;
+				height:100%;
+				height:90px;
+				resize:none;
+			}
+			
+			#modalPicker {
+				margin-left:30px;
+				width:180px;
+				height:30px;
+			}
+			
+		.modalButton {
+			position:absolute;
+			bottom:30px;
+			width:80px;
+			height:30px;
+			display:block;
+			text-align:center;
+			line-height:33px;
+			font-style:italic;
+			font-weight:bold;
+			font-size:16px;
+			color:#FFF;
+			border-radius:5px;
+		}
+		.modalButton:hover {
+			cursor:pointer;
+		}
+		#modalButtonYes {
+			float:right;
+			right:30px;
+			box-shadow:inset -1px -1px 1px 0 #3870A1, inset 1px 1px 1px 0 #C9DFFF;
+			background:#3D97D3;
+			font-size:12px;
+		}
+		#modalButtonYes:hover {
+			background-color:#46A1DC;
+		}
+		#modalButtonNo {
+			float:left;
+			box-shadow:inset -1px -1px 1px 0 #999, inset 1px 1px 1px 0 #BBB;
+			background:#AAA;
+			font-size:12px;
+		}
+		#modalButtonNo:hover {
+			background-color:#BBB;
+		}
+
+.jobInfo {
+	margin:0 auto 0 auto;
+	left:0;
+	right:0;
+	padding-left:30px;
+	display:block;
+	width:1024px;
+	height:170px;
+	background-color:#FFF;
+	border-radius:6px;
+	box-shadow:0 0 2px #999;
+}
+	#jiTop {
+		display:block;
+		height:50px;
+		width:964px;
+	}
+		#jitAddress {
+			float:left;
+			display:block;
+			height:50px;
+			width:800px;
+			font-size:30px;
+			font-weight:bold;
+			line-height:60px;
+			color:#666;
+		}
+		#jitPDF {
+			float:right;
+			margin-top:20px;
+			display:none;
+			height:30px;
+			width:160px;
+			padding-left:40px;
+			font-size:15px;
+			font-weight:bold;
+			line-height:30px;
+			color:#FFF;
+			border-radius:5px;
+			box-shadow:inset -1px -1px 1px 0 #3870A1, inset 1px 1px 1px 0 #C9DFFF;
+			background:#3D97D3 url('../../src/images/icons/pdf.png') no-repeat 15px 8px;
+		}
+		#jitPDF:hover {
+			background-color:#46A1DC;
+			cursor:pointer;
+		}
+		
+	#jiClaimant {
+		display:block;
+		height:45px;
+		color:#BBB;
+		font-size:24px;
+		font-weight:600;
+		line-height:40px;
+	}
+	#jiNumbers {
+		display:block;
+		height:15px;
+	}
+		#jinPhoneMobile {
+			float:left;
+			margin-right:15px;
+			display:block;
+			height:15px;
+			font-size:14px;
+			line-height:15px;
+			color:#777;
+		}
+		#jinPhoneLandline {
+			float:left;
+			padding-left:15px;
+			display:block;
+			height:15px;
+			font-size:14px;
+			line-height:15px;
+			color:#777;
+		}
+	
+	#jiButtonsLeft {
+		float:left;
+		margin-top:15px;
+		height:26px;
+		width:245px
+	}
+		#jiblClaimBrief {
+			float:left;
+			display:block;
+			width:100px;
+			height:26px;
+			text-align:center;
+			font-size:13px;
+			font-weight:600;
+			line-height:24px;
+			color:#666;
+			background-color:#FFF;
+			border:1px solid #DDD;
+			border-radius:12px;
+			box-shadow:inset 0 -5px 10px 0 #EEE;
+		}
+		#jiblCausationNotes {
+			float:right;
+			display:block;
+			width:140px;
+			height:26px;
+			text-align:center;
+			font-size:13px;
+			font-weight:600;
+			line-height:24px;
+			color:#666;
+			background-color:#FFF;
+			border:1px solid #DDD;
+			border-radius:12px;
+			box-shadow:inset 0 -5px 10px 0 #EEE;
+		}
+		#jiblClaimBrief:hover, #jiblCausationNotes:hover {
+			background-color:#F5F5F5;
+			box-shadow:inset 0 -5px 10px 0 #FFF;
+			color:#000;
+			cursor:pointer;
+		}
+	
+	#jiButtonsRight {
+		float:right;
+		margin:15px 30px 0 0;
+		height:26px;
+	}
+		.jibr {
+			float:right;
+			display:none;
+			width:120px;
+			height:26px;
+			text-align:center;
+			font-size:13px;
+			font-weight:600;
+			line-height:24px;
+			color:#EEE;
+			background-color:#999;
+			border:1px solid #666;
+			border-radius:12px;
+			box-shadow:inset 0 -5px 10px 0 #CCC;
+		}
+		#jibrAssign {
+			width:150px;
+		}
+		#jibrResub {
+			margin-right:30px;
+		}
+		#jibrApprove {
+			margin-right:5px;
+		}
+		.jibr:hover {
+			background-color:#888;
+			box-shadow:inset 0 -5px 10px 0 #BBB;
+			color:#FFF;
+			cursor:pointer;
+		}
+
+#splash {
+	margin:20px auto 20px auto;
+	display:block;
+	width:600px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	color:#600;
+	font-style:italic;
+}
+
+.buildingHead {
+	margin:30px auto 5px auto;
+	display:block;
+	width:1024px;
+	height:30px;
+	padding-left:30px;
+}
+	.bhName {
+		float:left;
+		height:30px;
+		color:#3F9ED9;
+		font-size:20px;
+		font-weight:600;
+		line-height:30px;
+	}
+	.bhIcons {
+		float:left;
+		margin-left:30px;
+		display:block;
+		width:100px;
+		height:30px;
+	}
+		.bhiImage {
+			margin:5px;
+			width:20px;
+			height:20px;
+		}
+		.bhiNotes {
+			margin:5px;
+			width:20px;
+			height:20px;
+		}
+		.bhiImage:hover, .bhiNotes:hover {
+			cursor:pointer;
+		}
+				
+.buildingBox {
+	margin:0 auto 0 auto;
+	width:1024px;
+}
+	.locationBox {
+		margin-bottom:30px;
+		display:block;
+		width:1024px;
+		padding:0 30px 30px 30px;
+		background-color:#FFF;
+		border-radius:6px;
+		box-shadow:0 0 2px #999;
+	}
+		.locationHead {
+			margin-bottom:10px;
+			display:block;
+			width:100%;
+			height:70px;
+			padding:20px 10px 0 10px;
+		}
+			.locationName {
+				float:left;
+				width:70%;
+				height:30px;
+				line-height:35px;
+				font-size:24px;
+				color:#333;
+			}
+			.locationDimensions {
+				float:right;
+				width:30%;
+				height:30px;
+				line-height:30px;
+				text-align:right;
+				font-style:italic;
+				font-size:14px;
+			}
+			.locationNotes {
+				margin-top:30px;
+				width:100%;
+				height:20px;
+				line-height:20px;
+				font-size:12px;
+				color:#333;
+			}
+		.elementHead {
+			display:block;
+			width:100%;
+			height:40px;
+			line-height:40px;
+			background-color:#DDD;
+			font-size:12px;
+			font-style:italic;
+			font-weight:600;
+			color:#333;
+			border-radius:1px;
+		}
+		.element {
+			display:block;
+			width:100%;
+			height:40px;
+			line-height:40px;
+			border-bottom:1px dotted #DDD;
+			font-size:12px;
+		}
+		.element:hover {
+			background-color:#EEE;
+			cursor:pointer;
+		}
+			.elementLeft {
+				float:left;
+				height:40px;
+				width:40%;
+				overflow:hidden;
+			}
+				.elCategory {
+					margin-right:10px;
+					float:left;
+					height:40px;
+					padding-left:15px;
+					line-height:40px;
+				}
+				.elName {
+					margin-right:10px;
+					float:left;
+					height:40px;
+					line-height:40px;
+					font-weight:600;
+				}
+				.elAttribute {
+					float:left;
+					height:40px;
+					color:#666;
+					line-height:40px;
+					font-style:italic;
+				}
+				.elIcons {
+					float:right;
+				}
+					.elInfo {
+						float:right;
+						margin-top:11px;
+						margin-right:10px;
+						display:block;
+						width:18px;
+						height:18px;
+					}
+					.elInfo:hover {
+						cursor:pointer;
+					}
+					.elImage {
+						float:right;
+						margin-top:11px;
+						margin-right:10px;
+						display:block;
+						width:18px;
+						height:18px;
+					}
+					.elImage:hover {
+						cursor:pointer;
+					}
+			
+			.elementRight {
+				float:right;
+				width:60%;
+				white-space:nowrap;
+				overflow:hidden;
+			}
+				.erCause {
+					float:right;
+					width:168px;
+					white-space:nowrap;
+					overflow:hidden;
+				}
+				.erCondition {
+					float:right;
+					width:120px;
+					white-space:nowrap;
+					overflow:hidden;
+				}
+				.erPaint {
+					float:right;
+					width:70px;
+					text-align:right;
+					white-space:nowrap;
+					overflow:hidden;
+				}
+				.erQty {
+					float:right;
+					width:70px;
+					text-align:right;
+					white-space:nowrap;
+					overflow:hidden;
+				}
+				.erRectification {
+					float:right;
+					width:150px;
+					padding-right:15px;
+					text-align:right;
+					white-space:nowrap;
+					overflow:hidden;
+				}
+					.erRectificationType {
+						float:right;
+						width:25px;
+					}
+					.erRectificationType:hover {
+						cursor:pointer;
+					}
+	
+	.noneBar {
+		width:100%;
+		height:30px;
+		font-style:italic;
+		color:#333;
+	}

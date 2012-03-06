@@ -1,0 +1,160 @@
+* {
+	margin:0;
+	padding:0;
+}
+a, div, section, textarea {
+	box-sizing: border-box;
+}
+body {
+	background:#E5E5E5 url('/src/images/textures/background.jpg') top left repeat-x;
+	font-family:'Arial', sans-serif; font-weight:400; font-stretch:normal;
+}
+a:hover {
+	cursor:pointer;
+}
+#test {
+	position:absolute;
+	margin:100px auto 0 auto;
+	display:block;
+	width:400px;
+	height:100px;
+	background-color:#000;
+	border:10px solid #AAA333;
+}
+.hidden {
+	display:none;
+}
+.future {
+	color:#999 !important;
+	border-color:#CCC;
+	disabled:disabled;
+}
+.future:hover {
+	cursor:help;
+}
+.popup {
+	margin:50% 0 0 50%;
+	
+}
+	.popupHead {
+		width:100%;
+		height:49px;
+		display:block;
+		text-align:center;
+		line-height:50px;
+		font-family:Arial, Gadget, sans-serif;
+		font-weight:bold;
+		font-size:18px;
+		color:#666;
+		border-bottom:1px solid #666677;
+		
+		/* Gradient */
+		background: #eeeeff;
+		background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI0MyUiIHN0b3AtY29sb3I9IiNlZWVlZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjOTk5OWFhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+		background: -moz-linear-gradient(top, #eeeeff 43%, #9999aa 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(43%,#EEEEFF), color-stop(100%,#9999AA)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #eeeeff 43%,#9999aa 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #eeeeff 43%,#9999aa 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #eeeeff 43%,#9999aa 100%); /* IE10+ */
+		background: linear-gradient(top, #eeeeff 43%,#9999aa 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EEEEFF', endColorstr='#9999AA',GradientType=0 ); /* IE6-8 */
+		
+		/* Border radius */
+		-webkit-border-radius:5px 5px 0 0;
+		-moz-border-radius:5px 5px 0 0;
+		border-radius:5px 5px 0 0;
+	}
+
+#secTopBar {
+	width:100%;
+	height:57px;
+	background-color:#636363;
+}
+	#tbCentre {
+		margin:0 auto 0 auto;
+		width:1024px;
+		height:100%;
+	}
+		#tbcLogo {
+			float:left;
+			width:211px;
+			height:57px;
+		}
+		#tbcTitle {
+			float:left;
+			width:200px;
+			height:100%;
+			color:#FFF;
+			padding-left:15px;
+			line-height:57px;
+		}
+		#tbcLinks {
+			float:right;
+			height:100%;
+			color:#FFF;
+			text-align:right;
+			line-height:57px;
+		}
+			#tbclLogout {
+				float:right;
+				width:100px;
+				height:100%;
+				color:#FFF;
+				text-decoration:none;
+				font-size:14px;
+			}
+	
+#mainNav {
+	margin:0 auto 0 auto;
+	width:1024px;
+	height:80px;
+	left:0;
+	right:0;
+	color:#999;
+	line-height:103px;
+	font-size:17px;
+	font-weight:600;
+}
+	#navJobs {
+		float:left;
+		margin:40px 0 0 5px;
+		width:66px;
+		height:20px;
+		color:#3F9ED9;
+		font-size:18px;
+		font-weight:600;
+		line-height:20px;
+	}
+	#navJobs:hover {
+		color:#4FAEE9;
+	}
+	#navJob {
+		float:left;
+		margin-top:40px;
+		width:800px;
+		height:20px;
+		display:block;
+		color:#999;
+		font-size:18px;
+		font-weight:600;
+		line-height:20px;
+	}
+	#navJob:hover {
+		cursor:default;
+	}
+	
+.mainBody {
+	margin:0 auto 0 auto;
+	left:0;
+	right:0;
+	display:block;
+	width:1024px;
+}
+	
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }

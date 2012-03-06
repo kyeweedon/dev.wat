@@ -1,0 +1,165 @@
+
+/*
+	//     E: mail@kyeweedon.com
+	//    BY: Kye Weedon
+	//   FOR: Metric Pty Ltd
+	//  DATE: February 2012
+	// ABOUT: 
+*/
+
+* {
+	margin:0;
+	padding:0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	background:#E5E5E5 url('/src/images/textures/background.jpg') top left repeat-x;
+	font-family:"HelveticaNeue","Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+.hidden {
+   display:none;
+}
+
+#secTopBar {
+	width:100%;
+	height:50px;
+	background-color:#636363;
+}
+	#tbCentre {
+		margin:0 auto 0 auto;
+		width:1024px;
+		height:100%;
+	}
+		#tbcLogo {
+			float:left;
+			margin-top:10px;
+			width:30px;
+			height:30px;
+		}
+		#tbcTitle {
+			float:left;
+			width:200px;
+			height:100%;
+			color:#FFF;
+			padding-left:15px;
+			line-height:50px;
+		}
+		#tbcLinks {
+			float:right;
+			height:100%;
+			color:#FFF;
+			text-align:center;
+			line-height:50px;
+		}
+		
+#secLogin {
+	margin:50px auto 0 auto;
+	left:0;
+	right:0;
+	width:340px;
+	height:255px;
+}
+	#login {
+		width:100%;
+		height:100%;
+		background-color:#FFF;
+		border-radius:5px;
+		box-shadow:0 0 2px #999;
+	}		
+		#loginTitle {
+			position:absolute;
+			margin:30px auto 0 auto;
+			left:0;
+			right:0;
+			display:block;
+			width:280px;
+			height:30px;
+			color:#636363;
+			font-weight:900;
+		}
+		#loginForm {
+			position:absolute;
+			margin:70px auto 0 auto;
+			left:0;
+			right:0;
+			display:block;
+			width:280px;
+			height:145px;
+			border-bottom:1px dashed #CCC;
+		}
+			#userName {
+				margin:5px auto 0 auto;
+				left:0;
+				right:0;
+				display:block;
+				width:100%;
+				height:30px;
+				padding-left:15px;
+				font-size:12px;
+			}
+			#userName:hover {
+				cursor:pointer;
+			}
+			#passWord {
+				margin:10px auto 0 auto;
+				left:0;
+				right:0;
+				display:block;
+				width:100%;
+				height:30px;
+				padding-left:15px;
+				font-size:12px;
+			}
+			#passWord:hover {
+				cursor:pointer;
+			}
+			#go {
+				margin:15px auto 0 auto;
+				left:0;
+				right:0;
+				width:100%;
+				height:35px;
+				display:block;
+				color:#FFF;
+				text-align:center;
+				font-size:16px;
+				line-height:35px;
+				border:0;
+				border-radius:5px;
+				box-shadow:inset -1px -1px 1px 0 #3870A1, inset 1px 1px 1px 0 #C9DFFF;
+				background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#3D97D3), to(#3D97D3));
+			}
+			#go:hover {
+				background-color:#5FBEF9;
+				background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#46a1dc), to(#46a1dc));
+				cursor:pointer;
+			}
+			
+		#loginForgot {
+			position:absolute;
+			margin:215px 0 0 30px;
+			width:120px;
+			height:40px;
+			color:#3F9ED9;
+			text-align:left;
+			font-size:13px;
+			line-height:40px;
+		}
+			
+		#footer {
+			margin:15px auto 0 auto;
+			left:0;
+			right:0;
+			width:320px;
+			font-size:10px;
+			color:#999;
+		}
+			#footerLinks {
+				float:right;
+			}
+				#footerLinks a {
+					color:#3F9ED9;
+				}

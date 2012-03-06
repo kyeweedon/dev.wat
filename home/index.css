@@ -1,0 +1,241 @@
+/* home/manage/ */
+
+#newJob {
+	margin:25px 5px 0 0;
+	float:right;
+	width:30px;
+	height:30px;
+	display:block;
+	padding-left:1px;
+	color:#FFF;
+	text-align:center;
+	font-size:25px;
+	font-weight:600;
+	line-height:30px;
+	border-radius:5px;
+	box-shadow:inset -1px -1px 1px 0 #3870A1, inset 1px 1px 1px 0 #C9DFFF;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#3D97D3), to(#3D97D3));
+}
+#newJob:hover {
+	background-color:#5FBEF9;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#46a1dc), to(#46a1dc));
+	cursor:pointer;
+}
+	
+.jobsBox {
+	margin-bottom:30px;
+	display:block;
+	width:100%;
+	padding-bottom:20px;
+	background-color:#FFF;
+	border-radius:5px;
+	box-shadow:0 0 2px #999;
+}
+	.statusBar {
+		display:block;
+		width:100%;
+		height:50px;
+		padding:20px 0 0 40px;
+		color:#666;
+		font-size:22px;
+	}
+	.statusBar:hover {
+		cursor:default;
+	}
+	.job {
+		margin:0 auto 0 auto;
+		left:0;
+		right:0;
+		display:block;
+		height:40px;
+		width:975px;
+		font-size:12px;
+		line-height:40px;
+		background-image:url('../src/images/textures/dotted.png');
+		background-repeat:repeat-x;
+	}
+	.job:hover {
+		background-color:#EEE;
+	}
+		.job div {
+			float:left;
+			height:40px;
+			display:block;
+			text-align:left;
+		}
+		.jobIcon {
+			width:17px;
+		}
+			.jobIcon img {
+				margin:13px 0 0 -1px;
+				display:block;
+				width:14px;
+				height:14px;
+			}
+			
+		.jobNumber {
+			width:15%;
+		}
+		.jobAddress {
+			width:40%;
+			font-weight:600;
+		}			
+		.jobClaimant {
+			width:18%;
+		}
+		.jobInsurer {
+			width:15%;
+		}
+		.jobAge {
+			width:8%;
+			text-align:right;
+		}
+	
+	.emptyJob {
+		padding-left:15px;
+		font-weight:bold;
+		color:#666;
+	}
+	.emptyJob:hover {
+		background-color:#FFF;
+	}
+				
+#njBack {
+	position:fixed;
+	top:0;
+	width:100%;
+	height:100%;
+}
+	.njFrame {
+		position:absolute;
+		margin:80px auto 0 auto;
+		left:0;
+		right:0;
+		display:block;
+		width:400px;
+		height:500px;
+		padding:30px;
+		background-color:#FFF;
+		border:1px solid #999;
+		box-shadow:0 2px 5px #999;
+		border-radius:5px;
+	}		
+		.njbText1 {
+			height:20px;
+			font-size:16px;
+			font-weight:bold;
+		}
+		.njbText2 {
+			height:15px;
+			font-size:10px;
+			line-height:15px;
+		}
+		
+		.njField {
+			margin-top:5px;
+			display:block;
+			width:100%;
+			height:30px;
+		}
+			.njField label {
+				float:left;
+				height:30px;
+				line-height:30px;
+				text-align:left;
+				font-size:13px;
+				font-weight:bold;
+			}
+			.njField input {
+				float:right;
+				margin-top:5px;
+				width:70%;
+				height:20px;
+			}
+			.njField input:hover {
+				cursor:pointer;
+			}	
+			.njField select {
+				float:right;
+				margin-top:5px;
+				width:70%;
+				height:20px;
+			}			
+		
+		.njLabel {
+			height:30px;
+			line-height:30px;
+			text-align:left;
+			font-size:13px;
+			font-weight:bold;
+		}
+		#njBrief {
+			margin-bottom:15px;
+			width:100%;
+			height:100px;
+			padding:10px;
+			vertical-align:top;
+		}
+		.njReports {
+			margin-bottom:20px;
+		}
+			.njCheck {
+				height:30px;
+			}
+			.njCheck label {
+				margin-left:10px;
+				font-size:11px;
+				font-weight:bold;
+			}
+	
+	.navButton {
+		position:absolute;
+		bottom:30px;
+		width:80px;
+		height:30px;
+		display:block;
+		text-align:center;
+		line-height:33px;
+		font-style:italic;
+		font-weight:bold;
+		font-size:16px;
+		color:#FFF;
+		border-radius:5px;
+	}
+	.navButton:hover {
+		cursor:pointer;
+	}
+	.navLeft {
+		float:left;
+		box-shadow:inset -1px -1px 1px 0 #3870A1, inset 1px 1px 1px 0 #C9DFFF;
+		background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#3D97D3), to(#3D97D3));
+	}
+	.navRight {
+		float:right;
+		right:30px;
+		box-shadow:inset -1px -1px 1px 0 #3870A1, inset 1px 1px 1px 0 #C9DFFF;
+		background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#3D97D3), to(#3D97D3));
+	}
+	.navRight:hover {
+		background-color:#5FBEF9;
+		background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#46a1dc), to(#46a1dc));
+	}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
