@@ -2,6 +2,7 @@ dev.wat
 =======
 
 Alpha for Watson system
-[0][Screenshots]
+
+[Screenshots][0]
 
 [0]:[http://imgur.com/a/iFf5G/all]
